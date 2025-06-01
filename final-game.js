@@ -25,45 +25,45 @@
             // Now we need to compare the computer's move with the player's move
             result = '';
 
-            if (playerMove === 'Scissors') {
+            if (playerMove === 'scissors') {
 
-                if (computerMove === 'Rock') {
+                if (computerMove === 'rock') {
                     result = 'You Lose!';
                 }
-                else if (computerMove === 'Paper') {
+                else if (computerMove === 'paper') {
                     result = 'You win!';
                 }
-                else if (computerMove === 'Scissors') {
+                else if (computerMove === 'scissors') {
                     result = 'Its a tie!';
                 }
 
             }
 
 
-            else if (playerMove === 'Paper') {
+            else if (playerMove === 'paper') {
 
-                if (computerMove === 'Rock') {
+                if (computerMove === 'rock') {
                     result = 'You win!';
                 }
-                else if (computerMove === 'Paper') {
+                else if (computerMove === 'paper') {
                     result = 'Its a tie!';
                 }
-                else if (computerMove === 'Scissors') {
+                else if (computerMove === 'scissors') {
                     result = 'You Lose!';
                 }
 
             }
 
 
-            else if (playerMove === 'Rock') {
+            else if (playerMove === 'rock') {
 
-                if (computerMove === 'Rock') {
+                if (computerMove === 'rock') {
                     result = 'Its a tie!';
                 }
-                else if (computerMove === 'Paper') {
+                else if (computerMove === 'paper') {
                     result = 'You Lose!';
                 }
-                else if (computerMove === 'Scissors') {
+                else if (computerMove === 'scissors') {
                     result = 'You win!';
                 }
                 
